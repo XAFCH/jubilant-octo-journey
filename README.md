@@ -8,7 +8,19 @@ The implemented training pipeline combines multi-label prediction with a path-le
 
 ## Requirements
 
-The implementation was developed with Python 3.10 and requires PyTorch, Transformers, NumPy, tqdm, scikit-learn, pandas, Matplotlib, and Seaborn. The OpenAI package is only required for optional LLM-based description generation.
+The implementation was developed with Python 3.10. The main required packages include:
+
+- PyTorch
+- Transformers
+- NumPy
+- tqdm
+- scikit-learn
+- pandas
+- Matplotlib
+- Seaborn
+- OpenAI
+
+The `openai` package is only required for optional LLM-based description generation.
 
 ## Data Preparation
 
